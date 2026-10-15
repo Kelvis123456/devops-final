@@ -1,0 +1,3 @@
+[[IgnoredVulns]]
+id = "GHSA-hp3w-g68c-fv3c"
+reason = "sprintf-js 1.0.3 is dev-only (via a test tooling dep) and has no fixed version yet"
