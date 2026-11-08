@@ -1,3 +1,15 @@
 [[IgnoredVulns]]
-id = "GHSA-hp3w-g68c-fv3c"
-reason = "sprintf-js 1.0.3 is dev-only (via a test tooling dep) and has no fixed version yet"
+id = "GHSA-3g3m-2fjr-6pw4"
+ignoreUntil = 2027-01-08
+reason = "glob ReDoS, dev-only through the test toolchain; the fix needs a breaking glob bump. Revisit then."
+
+[[IgnoredVulns]]
+id = "GHSA-g3hv-75wg-m249"
+ignoreUntil = 2027-01-08
+reason = "minimatch ReDoS, dev-only through the test toolchain; the fix needs a breaking minimatch bump. Revisit then."
+
+[[IgnoredVulns]]
+id = "GHSA-gcqx-w48m-w2h4"
+ignoreUntil = 2027-01-08
+reason = "deepmerge, dev-only through jest; no patched version exists yet. Revisit then."
+
